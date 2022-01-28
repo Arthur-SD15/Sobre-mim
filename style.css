@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #578cc5, #4789bb70);
+    font-family: 'Roboto';
+}
+
+section {
+    background-color: #e9e9e7;
+    box-shadow: 5px 5px 50px 8px rgb(0 0 0 / 59%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+section h1 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-size: 26px;
+    text-align: center;
+}
+
+section h2 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header {
+    background-image: url(https://media.istockphoto.com/photos/abstract-program-code-digital-concept-picture-id1318198515?b=1&k=20&m=1318198515&s=170667a&w=0&h=SWnnmcjdMG9ajBTHLUefCQYRU9M2DCKJmgvI9wbaOaE=);
+    background-size: cover;
+    height: 80px;
+    border-radius: 5px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(-50%);
+    transition: 0.6s;
+    border: 8px solid #e9e9e7;
+}
+
+img:hover{
+    transform: translateY(-60%);
+    border: 8px solid #313fbd3a;
+}
+
+div {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #bac3d6;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
